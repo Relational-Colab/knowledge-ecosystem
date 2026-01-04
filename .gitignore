@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Python / Jupyter (future analytics)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Node (if future tooling emerges)
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Build artifacts (future automation)
+dist/
+build/
