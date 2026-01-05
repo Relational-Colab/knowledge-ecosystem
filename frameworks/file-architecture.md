@@ -1,3 +1,5 @@
+<!-- This framework explains the file architecture of this knowledge ecosystem repo. -->
+
 # File Architecture for the Knowledge Ecosystem
 
 This document defines where Markdown, YAML, and JSON files belong within the knowledge ecosystem repository. It provides a clear, stable reference for future sprints as the system evolves from human‑first reflection to structured governance and eventually to machine‑readable analytics.
