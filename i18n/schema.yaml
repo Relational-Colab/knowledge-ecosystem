@@ -1,0 +1,13 @@
+# Canonical schema for multilingual glossary entries
+# Used for i18n/l10n across the knowledge-ecosystem
+# Each term file must conform to this structure
+
+id: ""                # unique identifier for the term
+term: ""              # the term itself (in the target language)
+language: ""          # ISO code, e.g., en, zh
+definition: ""        # clear, concise definition
+context: ""           # where/how the term is used
+source: ""            # origin or citation if applicable
+tags: []              # list of tags (e.g., "AI", "ethics", "model")
+related_terms: []     # cross-links to other term IDs
+notes: ""             # optional clarifications or teaching notes
