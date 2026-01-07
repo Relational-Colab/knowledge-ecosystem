@@ -1,0 +1,15 @@
+id: "systems-analysis"
+term: "Systems Analysis"
+language: "en"
+definition: "Studying a system to understand its components and how they work together to meet goals."
+context: "Used in systems development, IT education, and organizational analysis."
+source: "Ian Calder teaching notes"
+tags:
+  - "systems"
+  - "analysis"
+  - "IT"
+related_terms:
+  - "systems-design"
+notes: "Analysis involves breaking something into parts to understand the whole."
+anchor: "Comparable to strategic assessment in classical texts — understanding all factors before planning."
+pronunciation: ""

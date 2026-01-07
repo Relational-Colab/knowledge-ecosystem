@@ -1,0 +1,15 @@
+id: "systems-analysis-zh"
+term: "系统分析"
+language: "zh"
+definition: "研究一个系统，了解其组成部分以及它们如何协同工作以实现目标。"
+context: "用于系统开发、信息技术教育和组织分析。"
+source: "Ian Calder 教学笔记"
+tags:
+  - "系统"
+  - "分析"
+  - "信息技术"
+related_terms:
+  - "systems-design-zh"
+notes: "‘分析’意味着将整体拆分为部分，以便更好地理解整体。"
+anchor: "像《孙子兵法》中的‘知己知彼’——全面了解敌我情况，才能制定策略。"
+pronunciation: "xìtǒng fēnxī"
