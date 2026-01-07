@@ -1,0 +1,30 @@
+# Lookup index mapping canonical IDs to multilingual terms
+# Supports sorting, teaching, automation, and contributor navigation
+
+entries:
+  - id: "sys-analysis"
+    en: "Systems Analysis"
+    zh: "系统分析"
+    pronunciation: "xìtǒng fēnxī"
+    topic: "systems"
+    tags:
+      - "analysis"
+      - "IT"
+
+  - id: "sys-design"
+    en: "Systems Design"
+    zh: "系统设计"
+    pronunciation: "xìtǒng shèjì"
+    topic: "systems"
+    tags:
+      - "design"
+      - "IT"
+
+  - id: "sdlc"
+    en: "Systems Development Life Cycle"
+    zh: "系统开发生命周期"
+    pronunciation: "xìtǒng kāifā shēngmìng zhōuqī"
+    topic: "systems"
+    tags:
+      - "development"
+      - "lifecycle"
