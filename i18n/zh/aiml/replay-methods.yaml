@@ -1,0 +1,10 @@
+term: 重放方法
+definition: '重放方法是持续学习中的技术，通过存储和重放过去的数据来减轻遗忘并提高稳定性。
+
+  '
+pronunciation: chóng fàng fāng fǎ
+topic: aiml
+tags:
+- continual learning
+- memory
+- rehearsal

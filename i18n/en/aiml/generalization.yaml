@@ -1,0 +1,12 @@
+term: Generalization
+definition: 'A model’s ability to perform well on unseen data drawn from the same distribution as the training set.
+
+  '
+pronunciation: jen-er-uh-li-ZAY-shun
+topic: aiml
+tags:
+- machine_learning
+- model_evaluation
+- overfitting
+- bias_variance
+- generalization_error

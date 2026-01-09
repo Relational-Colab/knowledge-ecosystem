@@ -1,0 +1,8 @@
+term: Random Forest
+definition: 'An ensemble learning algorithm that builds multiple decision trees and aggregates their predictions to improve robustness and accuracy.
+
+  '
+pronunciation: RAN-dum FOR-est
+topic: aiml
+tags:
+- machine_learning

@@ -1,0 +1,10 @@
+term: 召回率
+definition: '召回率是所有实际正类样本中，被模型正确识别的比例。
+
+  '
+pronunciation: zhào huí lǜ
+topic: aiml
+tags:
+- classification
+- metrics
+- evaluation

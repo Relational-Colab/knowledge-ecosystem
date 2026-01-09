@@ -1,0 +1,10 @@
+term: Early Stopping
+definition: 'A regularization technique that stops training when validation performance begins to degrade.
+
+  '
+pronunciation: ER-lee STOP-ing
+topic: aiml
+tags:
+- regularization
+- model tuning
+- overfitting prevention

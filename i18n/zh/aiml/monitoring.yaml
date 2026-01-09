@@ -1,0 +1,10 @@
+term: 监控
+definition: '监控是在生产环境中跟踪模型性能和系统指标的实践，用于检测数据漂移或延迟等问题。
+
+  '
+pronunciation: jiān kòng
+topic: aiml
+tags:
+- observability
+- performance
+- ML operations

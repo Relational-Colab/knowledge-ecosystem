@@ -1,0 +1,13 @@
+term: Monte Carlo Tree Search (MCTS)
+definition: 'A heuristic search algorithm that uses Monte Carlo simulations and selective node expansion to explore large decision spaces, guided by the UCT criterion.
+
+  '
+pronunciation: MON-tee KAR-lo TREE SIRCH
+topic: aiml
+tags:
+- search_algorithm
+- heuristic_search
+- game_ai
+- probabilistic
+- UCT
+- tree_search

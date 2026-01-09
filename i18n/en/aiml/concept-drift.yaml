@@ -1,0 +1,10 @@
+term: Concept Drift
+definition: 'A phenomenon where the statistical properties of the target variable change over time, affecting model performance.
+
+  '
+pronunciation: KON-sept drift
+topic: aiml
+tags:
+- stream learning
+- non-stationarity
+- adaptation

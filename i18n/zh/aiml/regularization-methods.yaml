@@ -1,0 +1,10 @@
+term: 正则化方法
+definition: '正则化方法是在持续学习中限制模型更新的技术，以保留先前学习的知识。
+
+  '
+pronunciation: zhèng zé huà fāng fǎ
+topic: aiml
+tags:
+- continual learning
+- stability
+- regularization

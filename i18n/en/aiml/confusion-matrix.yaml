@@ -1,0 +1,10 @@
+term: Confusion Matrix
+definition: 'A table used to describe the performance of a classification model by showing counts of true positives, false positives, true negatives, and false negatives.
+
+  '
+pronunciation: kun-FYOO-zhun MAY-triks
+topic: aiml
+tags:
+- classification
+- evaluation
+- metrics

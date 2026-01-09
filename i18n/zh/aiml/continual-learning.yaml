@@ -1,0 +1,12 @@
+term: 持续学习
+definition: '持续学习指系统能够从连续数据流中不断学习，同时保留先前获得的知识。
+
+  '
+pronunciation: chí xù xué xí
+topic: aiml
+tags:
+- machine_learning
+- lifelong_learning
+- online_learning
+- catastrophic_forgetting
+- adaptive_models

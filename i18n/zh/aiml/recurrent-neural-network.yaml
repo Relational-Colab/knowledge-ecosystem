@@ -1,0 +1,10 @@
+term: 循环神经网络
+definition: '循环神经网络是一种连接形成有向循环的神经网络，用于建模序列数据。
+
+  '
+pronunciation: xún huán shén jīng wǎng luò
+topic: aiml
+tags:
+- sequence modeling
+- RNN
+- deep learning

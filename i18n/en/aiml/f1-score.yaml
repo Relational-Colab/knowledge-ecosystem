@@ -1,0 +1,10 @@
+term: F1 Score
+definition: 'The harmonic mean of precision and recall, balancing both concerns in classification tasks.
+
+  '
+pronunciation: EFF-wun skor
+topic: aiml
+tags:
+- classification
+- metrics
+- evaluation

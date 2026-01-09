@@ -1,0 +1,10 @@
+term: 隔离方法
+definition: '隔离方法是为不同任务分配独立模型组件或参数的策略，以避免相互干扰。
+
+  '
+pronunciation: gé lí fāng fǎ
+topic: aiml
+tags:
+- continual learning
+- modularity
+- task separation

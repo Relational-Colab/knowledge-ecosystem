@@ -1,0 +1,10 @@
+term: 贝叶斯优化
+definition: '贝叶斯优化通过构建目标函数的概率模型来选择最有前景的超参数。
+
+  '
+pronunciation: bèi yè sī yōu huà
+topic: aiml
+tags:
+- hyperparameter tuning
+- bayesian methods
+- optimization

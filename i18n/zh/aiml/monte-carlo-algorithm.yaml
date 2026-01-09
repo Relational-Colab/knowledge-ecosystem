@@ -1,0 +1,10 @@
+term: 蒙特卡洛算法
+definition: '蒙特卡洛算法是一种随机算法，在固定时间内运行，并可能以一定概率产生错误结果， 可通过重复降低误差。
+
+  '
+pronunciation: méng tè kǎ luò suàn fǎ
+topic: aiml
+tags:
+- randomized_algorithm
+- probabilistic
+- algorithm_design

@@ -1,0 +1,10 @@
+term: 反向传播
+definition: '反向传播是一种用于训练神经网络的算法，通过计算损失函数的梯度并使用梯度下降更新权重。
+
+  '
+pronunciation: fǎn xiàng chuán bō
+topic: aiml
+tags:
+- training
+- optimization
+- neural networks

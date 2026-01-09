@@ -1,0 +1,10 @@
+term: 网格搜索
+definition: '网格搜索是一种穷举方法，评估指定网格中所有超参数组合。
+
+  '
+pronunciation: wǎng gé sōu suǒ
+topic: aiml
+tags:
+- hyperparameter tuning
+- grid search
+- model selection

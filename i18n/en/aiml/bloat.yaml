@@ -1,0 +1,12 @@
+term: Bloat
+definition: 'The uncontrolled growth of solution representations without corresponding improvements in fitness, common in genetic programming.
+
+  '
+pronunciation: BLOHT
+topic: aiml
+tags:
+- genetic_programming
+- evolutionary_algorithm
+- model_complexity
+- overfitting
+- optimization

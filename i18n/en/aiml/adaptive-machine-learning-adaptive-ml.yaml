@@ -1,0 +1,13 @@
+term: Adaptive Machine Learning (Adaptive ML)
+definition: 'Systems that dynamically update their models in response to new or changing data without requiring explicit retraining on static datasets.
+
+  '
+pronunciation: uh-DAP-tiv muh-SHEEN LER-ning
+topic: aiml
+tags:
+- machine_learning
+- online_learning
+- concept_drift
+- real_time_learning
+- stream_learning
+- adaptive_systems

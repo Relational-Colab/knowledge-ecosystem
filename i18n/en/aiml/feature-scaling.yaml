@@ -1,0 +1,10 @@
+term: Feature Scaling
+definition: 'A technique used to normalize the range of independent variables or features to ensure uniformity and improve model performance.
+
+  '
+pronunciation: FEE-chur SKAY-ling
+topic: aiml
+tags:
+- normalization
+- standardization
+- preprocessing

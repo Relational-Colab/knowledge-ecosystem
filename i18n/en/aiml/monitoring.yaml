@@ -1,0 +1,10 @@
+term: Monitoring
+definition: 'The practice of tracking model performance and system metrics in production to detect issues such as data drift or latency.
+
+  '
+pronunciation: MON-ih-ter-ing
+topic: aiml
+tags:
+- observability
+- performance
+- ML operations

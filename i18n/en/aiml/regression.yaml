@@ -1,0 +1,10 @@
+term: Regression
+definition: 'A supervised learning task where the goal is to predict continuous numerical values.
+
+  '
+pronunciation: ree-GRESH-un
+topic: aiml
+tags:
+- supervised learning
+- continuous output
+- prediction

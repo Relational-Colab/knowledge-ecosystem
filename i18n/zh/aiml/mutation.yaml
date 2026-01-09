@@ -1,0 +1,12 @@
+term: 变异
+definition: '变异是进化算法中的一种遗传操作符，通过引入随机变化来保持多样性并探索新的搜索空间。
+
+  '
+pronunciation: biàn yì
+topic: aiml
+tags:
+- evolutionary_algorithm
+- genetic_programming
+- genetic_algorithm
+- variation_operator
+- diversity

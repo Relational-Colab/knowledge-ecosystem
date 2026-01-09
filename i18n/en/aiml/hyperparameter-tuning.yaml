@@ -1,0 +1,10 @@
+term: Hyperparameter Tuning
+definition: 'The process of optimizing configuration parameters that are not learned during training but affect model performance.
+
+  '
+pronunciation: HY-per-PAR-uh-mee-ter TOO-ning
+topic: aiml
+tags:
+- optimization
+- model tuning
+- hyperparameters

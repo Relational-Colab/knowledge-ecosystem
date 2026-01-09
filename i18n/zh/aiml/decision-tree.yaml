@@ -1,0 +1,12 @@
+term: 决策树
+definition: '决策树是一种监督学习模型，通过树状结构表示决策及其可能结果。
+
+  '
+pronunciation: jué cè shù
+topic: aiml
+tags:
+- machine_learning
+- classification
+- regression
+- tree_model
+- interpretable_model

@@ -1,0 +1,10 @@
+term: Random Search
+definition: 'A hyperparameter optimization technique that samples random combinations of parameters from a predefined distribution.
+
+  '
+pronunciation: RAN-dum SIRCH
+topic: aiml
+tags:
+- hyperparameter tuning
+- random sampling
+- optimization

@@ -1,0 +1,11 @@
+term: 分布假设
+definition: '分布假设认为出现在相似上下文中的词往往具有相似的含义，是许多 NLP 技术的基础。
+
+  '
+pronunciation: fēn bù jiǎ shè
+topic: aiml
+tags:
+- natural_language_processing
+- semantics
+- distributional_semantics
+- representation_learning

@@ -1,0 +1,12 @@
+term: 欠拟合
+definition: '欠拟合指模型过于简单，无法捕捉数据中的潜在模式，导致训练集和测试集表现都较差。
+
+  '
+pronunciation: qiàn nǐ hé
+topic: aiml
+tags:
+- machine_learning
+- model_evaluation
+- bias
+- generalization
+- training_error

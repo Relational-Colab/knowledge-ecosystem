@@ -1,0 +1,12 @@
+term: k 近邻算法
+definition: 'k 近邻是一种非参数、基于实例的学习算法，通过寻找距离最近的 k 个训练样本来进行预测。
+
+  '
+pronunciation: k jìn lín suàn fǎ
+topic: aiml
+tags:
+- machine_learning
+- classification
+- regression
+- instance_based_learning
+- non_parametric

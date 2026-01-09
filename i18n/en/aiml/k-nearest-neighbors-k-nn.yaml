@@ -1,0 +1,12 @@
+term: k-Nearest Neighbors (k-NN)
+definition: 'A non-parametric, instance-based learning algorithm that predicts labels based on the k closest training examples.
+
+  '
+pronunciation: kay NEE-rest NAY-bers
+topic: aiml
+tags:
+- machine_learning
+- classification
+- regression
+- instance_based_learning
+- non_parametric

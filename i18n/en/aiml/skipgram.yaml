@@ -1,0 +1,11 @@
+term: Skipgram
+definition: 'A Word2Vec architecture that learns word embeddings by predicting surrounding context words given a target word.
+
+  '
+pronunciation: SKIP-gram
+topic: aiml
+tags:
+- natural_language_processing
+- word_embeddings
+- neural networks
+- representation_learning

@@ -1,0 +1,10 @@
+term: 激活函数
+definition: '激活函数是应用于神经元输出的数学函数，用于引入非线性，使模型能够学习复杂模式。
+
+  '
+pronunciation: jī huó hán shù
+topic: aiml
+tags:
+- neural networks
+- non-linearity
+- deep learning

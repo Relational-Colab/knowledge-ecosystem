@@ -1,0 +1,853 @@
+- id: supervised-learning
+  en_term: Supervised Learning
+  zh_term: 监督学习
+  topic: aiml
+  tags:
+  - machine learning
+  - labeled data
+  - prediction
+  paths:
+    en: i18n/en/aiml/supervised-learning.yaml
+    zh: i18n/zh/aiml/supervised-learning.yaml
+- id: unsupervised-learning
+  en_term: Unsupervised Learning
+  zh_term: 无监督学习
+  topic: aiml
+  tags:
+  - clustering
+  - dimensionality reduction
+  - pattern discovery
+  paths:
+    en: i18n/en/aiml/unsupervised-learning.yaml
+    zh: i18n/zh/aiml/unsupervised-learning.yaml
+- id: classification
+  en_term: Classification
+  zh_term: 分类
+  topic: aiml
+  tags:
+  - supervised learning
+  - discrete output
+  - prediction
+  paths:
+    en: i18n/en/aiml/classification.yaml
+    zh: i18n/zh/aiml/classification.yaml
+- id: regression
+  en_term: Regression
+  zh_term: 回归
+  topic: aiml
+  tags:
+  - supervised learning
+  - continuous output
+  - prediction
+  paths:
+    en: i18n/en/aiml/regression.yaml
+    zh: i18n/zh/aiml/regression.yaml
+- id: clustering
+  en_term: Clustering
+  zh_term: 聚类
+  topic: aiml
+  tags:
+  - unsupervised learning
+  - grouping
+  - similarity
+  paths:
+    en: i18n/en/aiml/clustering.yaml
+    zh: i18n/zh/aiml/clustering.yaml
+- id: data-cleaning
+  en_term: Data Cleaning
+  zh_term: 数据清洗
+  topic: aiml
+  tags:
+  - data preprocessing
+  - quality assurance
+  - missing values
+  paths:
+    en: i18n/en/aiml/data-cleaning.yaml
+    zh: i18n/zh/aiml/data-cleaning.yaml
+- id: feature-scaling
+  en_term: Feature Scaling
+  zh_term: 特征缩放
+  topic: aiml
+  tags:
+  - normalization
+  - standardization
+  - preprocessing
+  paths:
+    en: i18n/en/aiml/feature-scaling.yaml
+    zh: i18n/zh/aiml/feature-scaling.yaml
+- id: dimensionality-reduction
+  en_term: Dimensionality Reduction
+  zh_term: 降维
+  topic: aiml
+  tags:
+  - feature engineering
+  - PCA
+  - data compression
+  paths:
+    en: i18n/en/aiml/dimensionality-reduction.yaml
+    zh: i18n/zh/aiml/dimensionality-reduction.yaml
+- id: encoding-categorical-variables
+  en_term: Encoding Categorical Variables
+  zh_term: 类别变量编码
+  topic: aiml
+  tags:
+  - categorical data
+  - preprocessing
+  - encoding
+  paths:
+    en: i18n/en/aiml/encoding-categorical-variables.yaml
+    zh: i18n/zh/aiml/encoding-categorical-variables.yaml
+- id: feature-extraction
+  en_term: Feature Extraction
+  zh_term: 特征提取
+  topic: aiml
+  tags:
+  - feature engineering
+  - preprocessing
+  - transformation
+  paths:
+    en: i18n/en/aiml/feature-extraction.yaml
+    zh: i18n/zh/aiml/feature-extraction.yaml
+- id: cross-validation
+  en_term: Cross-Validation
+  zh_term: 交叉验证
+  topic: aiml
+  tags:
+  - model evaluation
+  - validation
+  - resampling
+  paths:
+    en: i18n/en/aiml/cross-validation.yaml
+    zh: i18n/zh/aiml/cross-validation.yaml
+- id: confusion-matrix
+  en_term: Confusion Matrix
+  zh_term: 混淆矩阵
+  topic: aiml
+  tags:
+  - classification
+  - evaluation
+  - metrics
+  paths:
+    en: i18n/en/aiml/confusion-matrix.yaml
+    zh: i18n/zh/aiml/confusion-matrix.yaml
+- id: precision
+  en_term: Precision
+  zh_term: 精确率
+  topic: aiml
+  tags:
+  - classification
+  - metrics
+  - evaluation
+  paths:
+    en: i18n/en/aiml/precision.yaml
+    zh: i18n/zh/aiml/precision.yaml
+- id: recall
+  en_term: Recall
+  zh_term: 召回率
+  topic: aiml
+  tags:
+  - classification
+  - metrics
+  - evaluation
+  paths:
+    en: i18n/en/aiml/recall.yaml
+    zh: i18n/zh/aiml/recall.yaml
+- id: f1-score
+  en_term: F1 Score
+  zh_term: F1 分数
+  topic: aiml
+  tags:
+  - classification
+  - metrics
+  - evaluation
+  paths:
+    en: i18n/en/aiml/f1-score.yaml
+    zh: i18n/zh/aiml/f1-score.yaml
+- id: hyperparameter-tuning
+  en_term: Hyperparameter Tuning
+  zh_term: 超参数调优
+  topic: aiml
+  tags:
+  - optimization
+  - model tuning
+  - hyperparameters
+  paths:
+    en: i18n/en/aiml/hyperparameter-tuning.yaml
+    zh: i18n/zh/aiml/hyperparameter-tuning.yaml
+- id: grid-search
+  en_term: Grid Search
+  zh_term: 网格搜索
+  topic: aiml
+  tags:
+  - hyperparameter tuning
+  - grid search
+  - model selection
+  paths:
+    en: i18n/en/aiml/grid-search.yaml
+    zh: i18n/zh/aiml/grid-search.yaml
+- id: random-search
+  en_term: Random Search
+  zh_term: 随机搜索
+  topic: aiml
+  tags:
+  - hyperparameter tuning
+  - random sampling
+  - optimization
+  paths:
+    en: i18n/en/aiml/random-search.yaml
+    zh: i18n/zh/aiml/random-search.yaml
+- id: bayesian-optimization
+  en_term: Bayesian Optimization
+  zh_term: 贝叶斯优化
+  topic: aiml
+  tags:
+  - hyperparameter tuning
+  - bayesian methods
+  - optimization
+  paths:
+    en: i18n/en/aiml/bayesian-optimization.yaml
+    zh: i18n/zh/aiml/bayesian-optimization.yaml
+- id: early-stopping
+  en_term: Early Stopping
+  zh_term: 提前停止
+  topic: aiml
+  tags:
+  - regularization
+  - model tuning
+  - overfitting prevention
+  paths:
+    en: i18n/en/aiml/early-stopping.yaml
+    zh: i18n/zh/aiml/early-stopping.yaml
+- id: artificial-neural-network
+  en_term: Artificial Neural Network
+  zh_term: 人工神经网络
+  topic: aiml
+  tags:
+  - deep learning
+  - neural networks
+  - machine learning
+  paths:
+    en: i18n/en/aiml/artificial-neural-network.yaml
+    zh: i18n/zh/aiml/artificial-neural-network.yaml
+- id: activation-function
+  en_term: Activation Function
+  zh_term: 激活函数
+  topic: aiml
+  tags:
+  - neural networks
+  - non-linearity
+  - deep learning
+  paths:
+    en: i18n/en/aiml/activation-function.yaml
+    zh: i18n/zh/aiml/activation-function.yaml
+- id: backpropagation
+  en_term: Backpropagation
+  zh_term: 反向传播
+  topic: aiml
+  tags:
+  - training
+  - optimization
+  - neural networks
+  paths:
+    en: i18n/en/aiml/backpropagation.yaml
+    zh: i18n/zh/aiml/backpropagation.yaml
+- id: convolutional-neural-network
+  en_term: Convolutional Neural Network
+  zh_term: 卷积神经网络
+  topic: aiml
+  tags:
+  - deep learning
+  - computer vision
+  - CNN
+  paths:
+    en: i18n/en/aiml/convolutional-neural-network.yaml
+    zh: i18n/zh/aiml/convolutional-neural-network.yaml
+- id: recurrent-neural-network
+  en_term: Recurrent Neural Network
+  zh_term: 循环神经网络
+  topic: aiml
+  tags:
+  - sequence modeling
+  - RNN
+  - deep learning
+  paths:
+    en: i18n/en/aiml/recurrent-neural-network.yaml
+    zh: i18n/zh/aiml/recurrent-neural-network.yaml
+- id: model-deployment
+  en_term: Model Deployment
+  zh_term: 模型部署
+  topic: aiml
+  tags:
+  - deployment
+  - production
+  - ML lifecycle
+  paths:
+    en: i18n/en/aiml/model-deployment.yaml
+    zh: i18n/zh/aiml/model-deployment.yaml
+- id: model-serving
+  en_term: Model Serving
+  zh_term: 模型服务
+  topic: aiml
+  tags:
+  - deployment
+  - inference
+  - scalability
+  paths:
+    en: i18n/en/aiml/model-serving.yaml
+    zh: i18n/zh/aiml/model-serving.yaml
+- id: monitoring
+  en_term: Monitoring
+  zh_term: 监控
+  topic: aiml
+  tags:
+  - observability
+  - performance
+  - ML operations
+  paths:
+    en: i18n/en/aiml/monitoring.yaml
+    zh: i18n/zh/aiml/monitoring.yaml
+- id: ab-testing
+  en_term: A/B Testing
+  zh_term: A/B 测试
+  topic: aiml
+  tags:
+  - experimentation
+  - evaluation
+  - deployment
+  paths:
+    en: i18n/en/aiml/ab-testing.yaml
+    zh: i18n/zh/aiml/ab-testing.yaml
+- id: rollback
+  en_term: Rollback
+  zh_term: 回滚
+  topic: aiml
+  tags:
+  - deployment
+  - reliability
+  - version control
+  paths:
+    en: i18n/en/aiml/rollback.yaml
+    zh: i18n/zh/aiml/rollback.yaml
+- id: concept-drift
+  en_term: Concept Drift
+  zh_term: 概念漂移
+  topic: aiml
+  tags:
+  - stream learning
+  - non-stationarity
+  - adaptation
+  paths:
+    en: i18n/en/aiml/concept-drift.yaml
+    zh: i18n/zh/aiml/concept-drift.yaml
+- id: temporal-dependency
+  en_term: Temporal Dependency
+  zh_term: 时间依赖性
+  topic: aiml
+  tags:
+  - sequence modeling
+  - time series
+  - stream learning
+  paths:
+    en: i18n/en/aiml/temporal-dependency.yaml
+    zh: i18n/zh/aiml/temporal-dependency.yaml
+- id: replay-methods
+  en_term: Replay Methods
+  zh_term: 重放方法
+  topic: aiml
+  tags:
+  - continual learning
+  - memory
+  - rehearsal
+  paths:
+    en: i18n/en/aiml/replay-methods.yaml
+    zh: i18n/zh/aiml/replay-methods.yaml
+- id: regularization-methods
+  en_term: Regularization Methods
+  zh_term: 正则化方法
+  topic: aiml
+  tags:
+  - continual learning
+  - stability
+  - regularization
+  paths:
+    en: i18n/en/aiml/regularization-methods.yaml
+    zh: i18n/zh/aiml/regularization-methods.yaml
+- id: isolation-methods
+  en_term: Isolation Methods
+  zh_term: 隔离方法
+  topic: aiml
+  tags:
+  - continual learning
+  - modularity
+  - task separation
+  paths:
+    en: i18n/en/aiml/isolation-methods.yaml
+    zh: i18n/zh/aiml/isolation-methods.yaml
+- id: symbolic-regression
+  en_term: Symbolic Regression
+  zh_term: 符号回归
+  topic: aiml
+  tags:
+  - symbolic AI
+  - regression
+  - genetic programming
+  paths:
+    en: i18n/en/aiml/symbolic-regression.yaml
+    zh: i18n/zh/aiml/symbolic-regression.yaml
+- id: genetic-programming
+  en_term: Genetic Programming
+  zh_term: 遗传程序设计
+  topic: aiml
+  tags:
+  - evolutionary algorithms
+  - symbolic AI
+  - optimization
+  paths:
+    en: i18n/en/aiml/genetic-programming.yaml
+    zh: i18n/zh/aiml/genetic-programming.yaml
+- id: randomized-algorithms
+  en_term: Randomized Algorithms
+  zh_term: 随机算法
+  topic: aiml
+  tags:
+  - probabilistic algorithms
+  - complexity
+  - optimization
+  paths:
+    en: i18n/en/aiml/randomized-algorithms.yaml
+    zh: i18n/zh/aiml/randomized-algorithms.yaml
+- id: computational-complexity
+  en_term: Computational Complexity
+  zh_term: 计算复杂性
+  topic: aiml
+  tags:
+  - theoretical computer science
+  - efficiency
+  - algorithms
+  paths:
+    en: i18n/en/aiml/computational-complexity.yaml
+    zh: i18n/zh/aiml/computational-complexity.yaml
+- id: symbolic-ai
+  en_term: Symbolic AI
+  zh_term: 符号人工智能
+  topic: aiml
+  tags:
+  - knowledge_representation
+  - logic
+  - expert systems
+  paths:
+    en: i18n/en/aiml/symbolic-ai.yaml
+    zh: i18n/zh/aiml/symbolic-ai.yaml
+- id: skipgram
+  en_term: Skipgram
+  zh_term: Skipgram 模型
+  topic: aiml
+  tags:
+  - natural_language_processing
+  - word_embeddings
+  - neural networks
+  - representation_learning
+  paths:
+    en: i18n/en/aiml/skipgram.yaml
+    zh: i18n/zh/aiml/skipgram.yaml
+- id: word2vec
+  en_term: Word2Vec
+  zh_term: Word2Vec
+  topic: aiml
+  tags:
+  - natural_language_processing
+  - word embedding
+  - neural_networks
+  - representation_learning
+  paths:
+    en: i18n/en/aiml/word2vec.yaml
+    zh: i18n/zh/aiml/word2vec.yaml
+- id: distribution-hypothesis
+  en_term: Distribution Hypothesis
+  zh_term: 分布假设
+  topic: aiml
+  tags:
+  - natural_language_processing
+  - semantics
+  - distributional_semantics
+  - representation_learning
+  paths:
+    en: i18n/en/aiml/distribution-hypothesis.yaml
+    zh: i18n/zh/aiml/distribution-hypothesis.yaml
+- id: text-representation
+  en_term: Text Representation
+  zh_term: 文本表示
+  topic: aiml
+  tags:
+  - natural_language_processing
+  - text_encoding
+  - feature_extraction
+  - representation_learning
+  paths:
+    en: i18n/en/aiml/text-representation.yaml
+    zh: i18n/zh/aiml/text-representation.yaml
+- id: word-representation
+  en_term: Word Representation
+  zh_term: 词表示
+  topic: aiml
+  tags:
+  - natural_language_processing
+  - representation_learning
+  - word_embedding
+  - semantic_similarity
+  paths:
+    en: i18n/en/aiml/word-representation.yaml
+    zh: i18n/zh/aiml/word-representation.yaml
+- id: simulated-annealing
+  en_term: Simulated Annealing
+  zh_term: 模拟退火
+  topic: aiml
+  tags:
+  - optimization
+  - metaheuristic
+  - probabilistic_algorithm
+  - search
+  paths:
+    en: i18n/en/aiml/simulated-annealing.yaml
+    zh: i18n/zh/aiml/simulated-annealing.yaml
+- id: monte-carlo-algorithm
+  en_term: Monte Carlo Algorithm
+  zh_term: 蒙特卡洛算法
+  topic: aiml
+  tags:
+  - randomized_algorithm
+  - probabilistic
+  - algorithm_design
+  paths:
+    en: i18n/en/aiml/monte-carlo-algorithm.yaml
+    zh: i18n/zh/aiml/monte-carlo-algorithm.yaml
+- id: las-vegas-algorithm
+  en_term: Las Vegas Algorithm
+  zh_term: 拉斯维加斯算法
+  topic: aiml
+  tags:
+  - randomized_algorithm
+  - probabilistic
+  - algorithm_design
+  paths:
+    en: i18n/en/aiml/las-vegas-algorithm.yaml
+    zh: i18n/zh/aiml/las-vegas-algorithm.yaml
+- id: pseudocode
+  en_term: Pseudocode
+  zh_term: 伪代码
+  topic: aiml
+  tags:
+  - algorithm
+  - documentation
+  - algorithm_design
+  - programming
+  paths:
+    en: i18n/en/aiml/pseudocode.yaml
+    zh: i18n/zh/aiml/pseudocode.yaml
+- id: continual-learning
+  en_term: Continual Learning
+  zh_term: 持续学习
+  topic: aiml
+  tags:
+  - machine_learning
+  - lifelong_learning
+  - online_learning
+  - catastrophic_forgetting
+  - adaptive_models
+  paths:
+    en: i18n/en/aiml/continual-learning.yaml
+    zh: i18n/zh/aiml/continual-learning.yaml
+- id: random-forest
+  en_term: Random Forest
+  zh_term: 随机森林
+  topic: aiml
+  tags:
+  - machine_learning
+  paths:
+    en: i18n/en/aiml/random-forest.yaml
+    zh: i18n/zh/aiml/random-forest.yaml
+- id: adaptive-random-forest-arf
+  en_term: Adaptive Random Forest (ARF)
+  zh_term: 自适应随机森林
+  topic: aiml
+  tags:
+  - machine_learning
+  - stream_learning
+  - ensemble_learning
+  - concept_drift
+  - adaptive_models
+  paths:
+    en: i18n/en/aiml/adaptive-random-forest-arf.yaml
+    zh: i18n/zh/aiml/adaptive-random-forest-arf.yaml
+- id: ensembles
+  en_term: Ensembles
+  zh_term: 集成模型
+  topic: aiml
+  tags:
+  - machine_learning
+  - ensemble_learning
+  - model_combination
+  - classification
+  - regression
+  paths:
+    en: i18n/en/aiml/ensembles.yaml
+    zh: i18n/zh/aiml/ensembles.yaml
+- id: naive-bayes
+  en_term: Naive Bayes
+  zh_term: 朴素贝叶斯
+  topic: aiml
+  tags:
+  - machine_learning
+  paths:
+    en: i18n/en/aiml/naive-bayes.yaml
+    zh: i18n/zh/aiml/naive-bayes.yaml
+- id: decision-tree
+  en_term: Decision Tree
+  zh_term: 决策树
+  topic: aiml
+  tags:
+  - machine_learning
+  - classification
+  - regression
+  - tree_model
+  - interpretable_model
+  paths:
+    en: i18n/en/aiml/decision-tree.yaml
+    zh: i18n/zh/aiml/decision-tree.yaml
+- id: k-nearest-neighbors-k-nn
+  en_term: k-Nearest Neighbors (k-NN)
+  zh_term: k 近邻算法
+  topic: aiml
+  tags:
+  - machine_learning
+  - classification
+  - regression
+  - instance_based_learning
+  - non_parametric
+  paths:
+    en: i18n/en/aiml/k-nearest-neighbors-k-nn.yaml
+    zh: i18n/zh/aiml/k-nearest-neighbors-k-nn.yaml
+- id: adaptive-machine-learning-adaptive-ml
+  en_term: Adaptive Machine Learning (Adaptive ML)
+  zh_term: 自适应机器学习
+  topic: aiml
+  tags:
+  - machine_learning
+  - online_learning
+  - concept_drift
+  - real_time_learning
+  - stream_learning
+  - adaptive_systems
+  paths:
+    en: i18n/en/aiml/adaptive-machine-learning-adaptive-ml.yaml
+    zh: i18n/zh/aiml/adaptive-machine-learning-adaptive-ml.yaml
+- id: explainable-ai-xai
+  en_term: Explainable AI (XAI)
+  zh_term: 可解释人工智能
+  topic: aiml
+  tags:
+  - machine_learning
+  - interpretability
+  - transparency
+  - model_explainability
+  - trustworthy_AI
+  - auditing
+  paths:
+    en: i18n/en/aiml/explainable-ai-xai.yaml
+    zh: i18n/zh/aiml/explainable-ai-xai.yaml
+- id: bootstrap-aggregating-bagging
+  en_term: Bootstrap Aggregating (Bagging)
+  zh_term: 自助聚合（Bagging）
+  topic: aiml
+  tags:
+  - ensemble_learning
+  - bagging
+  - bootstrap
+  - variance_reduction
+  - machine_learning
+  paths:
+    en: i18n/en/aiml/bootstrap-aggregating-bagging.yaml
+    zh: i18n/zh/aiml/bootstrap-aggregating-bagging.yaml
+- id: ensemble-learning
+  en_term: Ensemble Learning
+  zh_term: 集成学习
+  topic: aiml
+  tags:
+  - machine_learning
+  - ensemble_methods
+  - model_combination
+  - bagging
+  - boosting
+  paths:
+    en: i18n/en/aiml/ensemble-learning.yaml
+    zh: i18n/zh/aiml/ensemble-learning.yaml
+- id: tournament-selection
+  en_term: Tournament Selection
+  zh_term: 锦标赛选择
+  topic: aiml
+  tags:
+  - evolutionary_algorithm
+  - selection_method
+  - genetic_algorithm
+  - genetic_programming
+  - fitness_based_selection
+  paths:
+    en: i18n/en/aiml/tournament-selection.yaml
+    zh: i18n/zh/aiml/tournament-selection.yaml
+- id: parsimony-pressure
+  en_term: Parsimony Pressure
+  zh_term: 简约压力
+  topic: aiml
+  tags:
+  - genetic_programming
+  - evolutionary_algorithm
+  - bloat_control
+  - model_complexity
+  - regularization
+  paths:
+    en: i18n/en/aiml/parsimony-pressure.yaml
+    zh: i18n/zh/aiml/parsimony-pressure.yaml
+- id: bloat
+  en_term: Bloat
+  zh_term: 膨胀
+  topic: aiml
+  tags:
+  - genetic_programming
+  - evolutionary_algorithm
+  - model_complexity
+  - overfitting
+  - optimization
+  paths:
+    en: i18n/en/aiml/bloat.yaml
+    zh: i18n/zh/aiml/bloat.yaml
+- id: underfitting
+  en_term: Underfitting
+  zh_term: 欠拟合
+  topic: aiml
+  tags:
+  - machine_learning
+  - model_evaluation
+  - bias
+  - generalization
+  - training_error
+  paths:
+    en: i18n/en/aiml/underfitting.yaml
+    zh: i18n/zh/aiml/underfitting.yaml
+- id: overfitting
+  en_term: Overfitting
+  zh_term: 过拟合
+  topic: aiml
+  tags:
+  - machine_learning
+  - model_evaluation
+  - generalization
+  - bias_variance
+  - training_error
+  paths:
+    en: i18n/en/aiml/overfitting.yaml
+    zh: i18n/zh/aiml/overfitting.yaml
+- id: bias-variance-trade-off
+  en_term: Bias-Variance Trade-off
+  zh_term: 偏差-方差权衡
+  topic: aiml
+  tags:
+  - machine_learning
+  - model_evaluation
+  - generalization
+  - overfitting
+  - underfitting
+  paths:
+    en: i18n/en/aiml/bias-variance-trade-off.yaml
+    zh: i18n/zh/aiml/bias-variance-trade-off.yaml
+- id: generalization
+  en_term: Generalization
+  zh_term: 泛化能力
+  topic: aiml
+  tags:
+  - machine_learning
+  - model_evaluation
+  - overfitting
+  - bias_variance
+  - generalization_error
+  paths:
+    en: i18n/en/aiml/generalization.yaml
+    zh: i18n/zh/aiml/generalization.yaml
+- id: mutation
+  en_term: Mutation
+  zh_term: 变异
+  topic: aiml
+  tags:
+  - evolutionary_algorithm
+  - genetic_programming
+  - genetic_algorithm
+  - variation_operator
+  - diversity
+  paths:
+    en: i18n/en/aiml/mutation.yaml
+    zh: i18n/zh/aiml/mutation.yaml
+- id: crossover
+  en_term: Crossover
+  zh_term: 交叉
+  topic: aiml
+  tags:
+  - evolutionary_algorithm
+  - genetic_programming
+  - genetic_algorithm
+  - recombination
+  - variation_operator
+  paths:
+    en: i18n/en/aiml/crossover.yaml
+    zh: i18n/zh/aiml/crossover.yaml
+- id: lexicase-selection
+  en_term: Lexicase Selection
+  zh_term: 词例选择
+  topic: aiml
+  tags:
+  - evolutionary_algorithm
+  - genetic_programming
+  - parent_selection
+  - non_aggregate_selection
+  - diversity_maintenance
+  paths:
+    en: i18n/en/aiml/lexicase-selection.yaml
+    zh: i18n/zh/aiml/lexicase-selection.yaml
+- id: fitness-function
+  en_term: Fitness Function
+  zh_term: 适应度函数
+  topic: aiml
+  tags:
+  - evolutionary_algorithm
+  - optimization
+  - objective_function
+  - genetic_programming
+  - genetic_algorithm
+  paths:
+    en: i18n/en/aiml/fitness-function.yaml
+    zh: i18n/zh/aiml/fitness-function.yaml
+- id: expression-tree
+  en_term: Expression Tree
+  zh_term: 表达式树
+  topic: aiml
+  tags:
+  - data_structure
+  - symbolic_regression
+  - compilers
+  - AST
+  - expression_parsing
+  paths:
+    en: i18n/en/aiml/expression-tree.yaml
+    zh: i18n/zh/aiml/expression-tree.yaml
+- id: monte-carlo-tree-search-mcts
+  en_term: Monte Carlo Tree Search (MCTS)
+  zh_term: 蒙特卡洛树搜索（MCTS）
+  topic: aiml
+  tags:
+  - search_algorithm
+  - heuristic_search
+  - game_ai
+  - probabilistic
+  - UCT
+  - tree_search
+  paths:
+    en: i18n/en/aiml/monte-carlo-tree-search-mcts.yaml
+    zh: i18n/zh/aiml/monte-carlo-tree-search-mcts.yaml

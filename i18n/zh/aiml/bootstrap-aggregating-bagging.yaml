@@ -1,0 +1,12 @@
+term: 自助聚合（Bagging）
+definition: '自助聚合（Bagging）是一种集成技术，通过在自助采样的数据子集上训练多个模型并聚合预测来减少方差。
+
+  '
+pronunciation: zì zhù jù hé
+topic: aiml
+tags:
+- ensemble_learning
+- bagging
+- bootstrap
+- variance_reduction
+- machine_learning

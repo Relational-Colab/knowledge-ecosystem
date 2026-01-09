@@ -1,0 +1,12 @@
+term: 集成学习
+definition: '集成学习是一种训练并组合多个模型以提高预测性能、鲁棒性和泛化能力的学习范式。
+
+  '
+pronunciation: jí chéng xué xí
+topic: aiml
+tags:
+- machine_learning
+- ensemble_methods
+- model_combination
+- bagging
+- boosting

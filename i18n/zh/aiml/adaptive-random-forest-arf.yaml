@@ -1,0 +1,12 @@
+term: 自适应随机森林
+definition: '自适应随机森林是一种用于演化数据流的集成方法，包含漂移检测和自适应树替换机制。
+
+  '
+pronunciation: zì shì yìng suí jī sēn lín
+topic: aiml
+tags:
+- machine_learning
+- stream_learning
+- ensemble_learning
+- concept_drift
+- adaptive_models

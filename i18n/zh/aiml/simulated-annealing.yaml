@@ -1,0 +1,11 @@
+term: 模拟退火
+definition: '模拟退火是一种受金属退火过程启发的概率优化技术，通过在早期接受较差解来 避免陷入局部最优。
+
+  '
+pronunciation: mó nǐ tuì huǒ
+topic: aiml
+tags:
+- optimization
+- metaheuristic
+- probabilistic_algorithm
+- search

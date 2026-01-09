@@ -1,0 +1,12 @@
+term: Lexicase Selection
+definition: 'A selection method that evaluates individuals case-by-case in random order, filtering based on best performance per case.
+
+  '
+pronunciation: LEK-sih-kays sel-EK-shun
+topic: aiml
+tags:
+- evolutionary_algorithm
+- genetic_programming
+- parent_selection
+- non_aggregate_selection
+- diversity_maintenance

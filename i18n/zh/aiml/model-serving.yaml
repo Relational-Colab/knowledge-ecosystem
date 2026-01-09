@@ -1,0 +1,10 @@
+term: 模型服务
+definition: '模型服务是用于在生产环境中托管和提供机器学习模型推理的基础设施和工具。
+
+  '
+pronunciation: mó xíng fú wù
+topic: aiml
+tags:
+- deployment
+- inference
+- scalability

@@ -1,0 +1,11 @@
+term: 词表示
+definition: '词表示是将词编码为计算模型可用形式的方式，从独热编码到能够捕捉语义关系的 稠密词向量。
+
+  '
+pronunciation: cí biǎo shì
+topic: aiml
+tags:
+- natural_language_processing
+- representation_learning
+- word_embedding
+- semantic_similarity

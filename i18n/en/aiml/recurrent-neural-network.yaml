@@ -1,0 +1,10 @@
+term: Recurrent Neural Network
+definition: 'A neural network where connections form directed cycles, enabling the modeling of sequential data.
+
+  '
+pronunciation: ree-KUR-ent NYOO-rul NET-work
+topic: aiml
+tags:
+- sequence modeling
+- RNN
+- deep learning

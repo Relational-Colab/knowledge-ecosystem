@@ -1,0 +1,12 @@
+term: Overfitting
+definition: 'A model learns noise and random fluctuations in the training data, performing well on training data but poorly on unseen data.
+
+  '
+pronunciation: OH-ver-fit-ing
+topic: aiml
+tags:
+- machine_learning
+- model_evaluation
+- generalization
+- bias_variance
+- training_error

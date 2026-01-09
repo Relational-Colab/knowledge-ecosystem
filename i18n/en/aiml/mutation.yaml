@@ -1,0 +1,12 @@
+term: Mutation
+definition: 'A genetic operator that introduces random variation into individuals to maintain diversity and explore new areas of the search space.
+
+  '
+pronunciation: myoo-TAY-shun
+topic: aiml
+tags:
+- evolutionary_algorithm
+- genetic_programming
+- genetic_algorithm
+- variation_operator
+- diversity

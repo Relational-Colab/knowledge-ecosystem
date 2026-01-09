@@ -1,0 +1,10 @@
+term: A/B Testing
+definition: 'An experimental technique comparing two versions of a model or system by exposing users to each and measuring performance differences.
+
+  '
+pronunciation: A-B TES-ting
+topic: aiml
+tags:
+- experimentation
+- evaluation
+- deployment

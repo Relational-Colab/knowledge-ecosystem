@@ -1,0 +1,12 @@
+term: Expression Tree
+definition: 'A tree data structure representing mathematical expressions, where leaf nodes are operands and internal nodes are operators or functions.
+
+  '
+pronunciation: eks-PRESH-un TREE
+topic: aiml
+tags:
+- data_structure
+- symbolic_regression
+- compilers
+- AST
+- expression_parsing

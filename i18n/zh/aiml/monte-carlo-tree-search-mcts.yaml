@@ -1,0 +1,13 @@
+term: 蒙特卡洛树搜索（MCTS）
+definition: '蒙特卡洛树搜索（MCTS）是一种启发式搜索算法，通过蒙特卡洛模拟和选择性节点扩展， 在巨大的决策空间中进行探索，并由 UCT 准则指导。
+
+  '
+pronunciation: méng tè kǎ luò shù sōu suǒ
+topic: aiml
+tags:
+- search_algorithm
+- heuristic_search
+- game_ai
+- probabilistic
+- UCT
+- tree_search

@@ -1,0 +1,10 @@
+term: Cross-Validation
+definition: 'A model evaluation technique that partitions the dataset into multiple subsets, training on some and validating on others.
+
+  '
+pronunciation: kraws VAL-ih-DAY-shun
+topic: aiml
+tags:
+- model evaluation
+- validation
+- resampling

@@ -1,0 +1,10 @@
+term: Feature Extraction
+definition: 'The process of transforming raw data into informative features that can be used for model training.
+
+  '
+pronunciation: FEE-chur ex-TRAK-shun
+topic: aiml
+tags:
+- feature engineering
+- preprocessing
+- transformation

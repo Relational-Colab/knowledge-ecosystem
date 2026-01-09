@@ -1,0 +1,10 @@
+term: Bayesian Optimization
+definition: 'An optimization technique that builds a probabilistic model of the objective function and uses it to select promising hyperparameters.
+
+  '
+pronunciation: BAY-zee-un op-tih-mih-ZAY-shun
+topic: aiml
+tags:
+- hyperparameter tuning
+- bayesian methods
+- optimization

@@ -1,0 +1,12 @@
+term: 偏差-方差权衡
+definition: '偏差-方差权衡描述预测模型中两类误差来源之间的张力：偏差和方差。
+
+  '
+pronunciation: piān chā fāng chā quán héng
+topic: aiml
+tags:
+- machine_learning
+- model_evaluation
+- generalization
+- overfitting
+- underfitting

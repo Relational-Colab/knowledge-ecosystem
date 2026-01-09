@@ -1,0 +1,10 @@
+term: 精确率
+definition: '精确率是模型预测为正类的样本中，真正例所占的比例。
+
+  '
+pronunciation: jīng què lǜ
+topic: aiml
+tags:
+- classification
+- metrics
+- evaluation

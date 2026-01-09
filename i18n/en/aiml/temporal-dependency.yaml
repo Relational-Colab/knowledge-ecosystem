@@ -1,0 +1,10 @@
+term: Temporal Dependency
+definition: 'The relationship between data points across time, where past values influence future outcomes.
+
+  '
+pronunciation: TEM-por-ul de-PEN-den-see
+topic: aiml
+tags:
+- sequence modeling
+- time series
+- stream learning

@@ -1,0 +1,8 @@
+term: 随机森林
+definition: '随机森林是一种集成学习算法，通过构建多个决策树并聚合其预测来提高鲁棒性和准确性。
+
+  '
+pronunciation: suí jī sēn lín
+topic: aiml
+tags:
+- machine_learning

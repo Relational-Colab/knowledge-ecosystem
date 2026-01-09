@@ -1,0 +1,10 @@
+term: Convolutional Neural Network
+definition: 'A deep neural network designed to process grid-structured data such as images, using convolutional layers to extract spatial features.
+
+  '
+pronunciation: kon-vo-LOO-shun-ul NYOO-rul NET-work
+topic: aiml
+tags:
+- deep learning
+- computer vision
+- CNN

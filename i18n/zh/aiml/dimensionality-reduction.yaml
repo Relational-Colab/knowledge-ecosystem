@@ -1,0 +1,10 @@
+term: 降维
+definition: '降维是减少数据集输入变量数量的过程，以简化模型并降低计算成本。
+
+  '
+pronunciation: jiàng wéi
+topic: aiml
+tags:
+- feature engineering
+- PCA
+- data compression

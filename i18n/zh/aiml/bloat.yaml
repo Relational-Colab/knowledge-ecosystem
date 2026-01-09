@@ -1,0 +1,12 @@
+term: 膨胀
+definition: '膨胀指解的表示形式不受控制地增长，而适应度却没有相应提高，是遗传程序设计中的常见问题。
+
+  '
+pronunciation: péng zhàng
+topic: aiml
+tags:
+- genetic_programming
+- evolutionary_algorithm
+- model_complexity
+- overfitting
+- optimization

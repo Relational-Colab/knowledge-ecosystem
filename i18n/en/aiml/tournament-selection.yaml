@@ -1,0 +1,12 @@
+term: Tournament Selection
+definition: 'A selection method in evolutionary algorithms where a random subset of individuals compete and the fittest is chosen.
+
+  '
+pronunciation: TOR-nuh-ment sel-EK-shun
+topic: aiml
+tags:
+- evolutionary_algorithm
+- selection_method
+- genetic_algorithm
+- genetic_programming
+- fitness_based_selection

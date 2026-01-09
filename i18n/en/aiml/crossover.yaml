@@ -1,0 +1,12 @@
+term: Crossover
+definition: 'A genetic operator that combines genetic information from two parents to generate new offspring.
+
+  '
+pronunciation: KRAWS-oh-ver
+topic: aiml
+tags:
+- evolutionary_algorithm
+- genetic_programming
+- genetic_algorithm
+- recombination
+- variation_operator

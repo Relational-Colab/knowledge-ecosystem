@@ -1,0 +1,11 @@
+term: 文本表示
+definition: '文本表示是将原始文本转换为适合机器学习的数值格式的过程，包括词袋模型、 TF-IDF 和词嵌入等方法。
+
+  '
+pronunciation: wén běn biǎo shì
+topic: aiml
+tags:
+- natural_language_processing
+- text_encoding
+- feature_extraction
+- representation_learning

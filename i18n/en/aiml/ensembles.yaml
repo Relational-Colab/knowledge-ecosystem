@@ -1,0 +1,12 @@
+term: Ensembles
+definition: 'A collection of models whose predictions are combined to improve accuracy, robustness, and generalization.
+
+  '
+pronunciation: on-SOM-bulls
+topic: aiml
+tags:
+- machine_learning
+- ensemble_learning
+- model_combination
+- classification
+- regression

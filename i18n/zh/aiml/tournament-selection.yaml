@@ -1,0 +1,12 @@
+term: 锦标赛选择
+definition: '锦标赛选择是进化算法中的一种选择方法，从种群中随机选取若干个体竞争，并选择最优者。
+
+  '
+pronunciation: jǐn biāo sài xuǎn zé
+topic: aiml
+tags:
+- evolutionary_algorithm
+- selection_method
+- genetic_algorithm
+- genetic_programming
+- fitness_based_selection

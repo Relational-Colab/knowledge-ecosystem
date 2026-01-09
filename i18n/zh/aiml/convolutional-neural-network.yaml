@@ -1,0 +1,10 @@
+term: 卷积神经网络
+definition: '卷积神经网络是一种用于处理网格结构数据（如图像）的深度神经网络， 通过卷积层提取空间特征。
+
+  '
+pronunciation: juǎn jī shén jīng wǎng luò
+topic: aiml
+tags:
+- deep learning
+- computer vision
+- CNN

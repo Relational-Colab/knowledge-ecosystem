@@ -1,0 +1,10 @@
+term: Classification
+definition: 'A supervised learning task where the goal is to assign discrete labels to input data.
+
+  '
+pronunciation: class-ih-fih-KAY-shun
+topic: aiml
+tags:
+- supervised learning
+- discrete output
+- prediction

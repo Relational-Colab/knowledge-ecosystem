@@ -1,0 +1,12 @@
+term: 集成模型
+definition: '集成模型是多个模型的组合，通过聚合预测来提高准确性、鲁棒性和泛化能力。
+
+  '
+pronunciation: jí chéng mó xíng
+topic: aiml
+tags:
+- machine_learning
+- ensemble_learning
+- model_combination
+- classification
+- regression

@@ -1,0 +1,12 @@
+term: 过拟合
+definition: '过拟合指模型不仅学习了训练数据中的模式，还学习了噪声和随机波动，导致泛化能力下降。
+
+  '
+pronunciation: guò nǐ hé
+topic: aiml
+tags:
+- machine_learning
+- model_evaluation
+- generalization
+- bias_variance
+- training_error

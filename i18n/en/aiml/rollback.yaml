@@ -1,0 +1,10 @@
+term: Rollback
+definition: 'The process of reverting to a previous model version or system state in response to performance degradation or failure.
+
+  '
+pronunciation: ROLE-bak
+topic: aiml
+tags:
+- deployment
+- reliability
+- version control

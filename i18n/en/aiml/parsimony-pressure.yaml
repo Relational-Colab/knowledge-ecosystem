@@ -1,0 +1,12 @@
+term: Parsimony Pressure
+definition: 'A technique in genetic programming that penalizes overly complex solutions to control bloat and encourage simpler models.
+
+  '
+pronunciation: PAR-sih-moh-nee PRESH-ur
+topic: aiml
+tags:
+- genetic_programming
+- evolutionary_algorithm
+- bloat_control
+- model_complexity
+- regularization

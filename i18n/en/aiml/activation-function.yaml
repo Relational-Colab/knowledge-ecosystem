@@ -1,0 +1,10 @@
+term: Activation Function
+definition: 'A mathematical function applied to a neuron''s output to introduce non-linearity, enabling the model to learn complex patterns.
+
+  '
+pronunciation: ak-tih-VAY-shun FUNK-shun
+topic: aiml
+tags:
+- neural networks
+- non-linearity
+- deep learning

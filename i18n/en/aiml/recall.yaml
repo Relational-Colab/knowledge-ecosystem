@@ -1,0 +1,10 @@
+term: Recall
+definition: 'The ratio of true positive predictions to the total number of actual positive instances.
+
+  '
+pronunciation: REE-kawl
+topic: aiml
+tags:
+- classification
+- metrics
+- evaluation

@@ -1,0 +1,10 @@
+term: Dimensionality Reduction
+definition: 'The process of reducing the number of input variables in a dataset to simplify models and reduce computational cost.
+
+  '
+pronunciation: dye-MEN-shun-AL-ih-tee ree-DUK-shun
+topic: aiml
+tags:
+- feature engineering
+- PCA
+- data compression

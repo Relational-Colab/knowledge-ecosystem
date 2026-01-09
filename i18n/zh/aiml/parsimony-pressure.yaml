@@ -1,0 +1,12 @@
+term: 简约压力
+definition: '简约压力是遗传程序设计中用于惩罚过于复杂的解以控制膨胀并鼓励更简单模型的技术。
+
+  '
+pronunciation: jiǎn yuē yā lì
+topic: aiml
+tags:
+- genetic_programming
+- evolutionary_algorithm
+- bloat_control
+- model_complexity
+- regularization

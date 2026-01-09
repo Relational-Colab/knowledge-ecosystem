@@ -1,0 +1,11 @@
+term: Distribution Hypothesis
+definition: 'The idea that words appearing in similar contexts tend to have similar meanings, forming the basis of many NLP techniques.
+
+  '
+pronunciation: dis-TRIB-yoo-shun hy-POTH-uh-sis
+topic: aiml
+tags:
+- natural_language_processing
+- semantics
+- distributional_semantics
+- representation_learning

@@ -1,0 +1,12 @@
+term: 泛化能力
+definition: '泛化能力指模型在与训练数据同分布的未见数据上表现良好的能力。
+
+  '
+pronunciation: fàn huà néng lì
+topic: aiml
+tags:
+- machine_learning
+- model_evaluation
+- overfitting
+- bias_variance
+- generalization_error

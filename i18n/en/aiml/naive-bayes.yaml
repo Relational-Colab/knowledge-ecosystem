@@ -1,0 +1,8 @@
+term: Naive Bayes
+definition: 'A family of probabilistic classifiers based on Bayes’ Theorem, assuming strong independence between features.
+
+  '
+pronunciation: nah-EEV BAYZ
+topic: aiml
+tags:
+- machine_learning

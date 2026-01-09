@@ -1,0 +1,10 @@
+term: Backpropagation
+definition: 'An algorithm used to train neural networks by computing gradients of the loss function and updating weights via gradient descent.
+
+  '
+pronunciation: bak-PROP-uh-GAY-shun
+topic: aiml
+tags:
+- training
+- optimization
+- neural networks

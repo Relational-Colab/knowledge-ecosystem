@@ -1,0 +1,12 @@
+term: Ensemble Learning
+definition: 'A paradigm where multiple models are trained and combined to improve predictive performance, robustness, and generalization.
+
+  '
+pronunciation: on-SOM-bul LER-ning
+topic: aiml
+tags:
+- machine_learning
+- ensemble_methods
+- model_combination
+- bagging
+- boosting

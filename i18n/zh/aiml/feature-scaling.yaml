@@ -1,0 +1,10 @@
+term: 特征缩放
+definition: '特征缩放是一种用于规范化特征范围的技术，以确保一致性并提升模型性能。
+
+  '
+pronunciation: tè zhēng suō fàng
+topic: aiml
+tags:
+- normalization
+- standardization
+- preprocessing

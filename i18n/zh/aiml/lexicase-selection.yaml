@@ -1,0 +1,12 @@
+term: 词例选择
+definition: '词例选择是一种选择方法，按随机顺序逐个测试案例评估个体，并基于每个案例的最佳表现进行筛选。
+
+  '
+pronunciation: cí lì xuǎn zé
+topic: aiml
+tags:
+- evolutionary_algorithm
+- genetic_programming
+- parent_selection
+- non_aggregate_selection
+- diversity_maintenance

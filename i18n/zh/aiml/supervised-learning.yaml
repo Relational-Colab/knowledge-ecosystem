@@ -1,0 +1,10 @@
+term: 监督学习
+definition: '监督学习是一种机器学习方法，模型在带标签的数据上进行训练， 以学习从输入到输出的映射关系。
+
+  '
+pronunciation: jiān dū xué xí
+topic: aiml
+tags:
+- machine learning
+- labeled data
+- prediction

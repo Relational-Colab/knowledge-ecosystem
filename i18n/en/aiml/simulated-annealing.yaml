@@ -1,0 +1,11 @@
+term: Simulated Annealing
+definition: 'A probabilistic optimization technique inspired by the annealing process in metallurgy, accepting worse solutions early to avoid local optima.
+
+  '
+pronunciation: SIM-yoo-lay-ted uh-NEEL-ing
+topic: aiml
+tags:
+- optimization
+- metaheuristic
+- probabilistic_algorithm
+- search

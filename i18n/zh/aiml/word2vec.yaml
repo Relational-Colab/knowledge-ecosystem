@@ -1,0 +1,11 @@
+term: Word2Vec
+definition: 'Word2Vec 是一种神经嵌入模型，通过大规模语料库中的上下文学习词向量表示。
+
+  '
+pronunciation: Word2Vec
+topic: aiml
+tags:
+- natural_language_processing
+- word embedding
+- neural_networks
+- representation_learning

@@ -1,0 +1,10 @@
+term: 特征提取
+definition: '特征提取是将原始数据转换为可用于模型训练的有用特征的过程。
+
+  '
+pronunciation: tè zhēng tí qǔ
+topic: aiml
+tags:
+- feature engineering
+- preprocessing
+- transformation

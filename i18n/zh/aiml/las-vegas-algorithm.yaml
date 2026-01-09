@@ -1,0 +1,10 @@
+term: 拉斯维加斯算法
+definition: '拉斯维加斯算法是一种随机算法，总能返回正确结果（或明确失败），但运行时间具有随机性。
+
+  '
+pronunciation: lā sī wéi jiā sī suàn fǎ
+topic: aiml
+tags:
+- randomized_algorithm
+- probabilistic
+- algorithm_design

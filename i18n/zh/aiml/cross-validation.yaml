@@ -1,0 +1,10 @@
+term: 交叉验证
+definition: '交叉验证是一种模型评估技术，将数据集划分为多个子集，在部分子集上训练， 在其他子集上验证。
+
+  '
+pronunciation: jiāo chā yàn zhèng
+topic: aiml
+tags:
+- model evaluation
+- validation
+- resampling

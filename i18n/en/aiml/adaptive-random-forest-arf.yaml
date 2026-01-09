@@ -1,0 +1,12 @@
+term: Adaptive Random Forest (ARF)
+definition: 'An ensemble method for evolving data streams, incorporating drift detection and adaptive tree replacement.
+
+  '
+pronunciation: uh-DAP-tiv RAN-dum FOR-est
+topic: aiml
+tags:
+- machine_learning
+- stream_learning
+- ensemble_learning
+- concept_drift
+- adaptive_models

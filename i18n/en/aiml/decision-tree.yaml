@@ -1,0 +1,12 @@
+term: Decision Tree
+definition: 'A supervised learning model that represents decisions and consequences using a tree-like structure.
+
+  '
+pronunciation: dih-SIH-zhun TREE
+topic: aiml
+tags:
+- machine_learning
+- classification
+- regression
+- tree_model
+- interpretable_model

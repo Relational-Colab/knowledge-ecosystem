@@ -1,0 +1,10 @@
+term: 回滚
+definition: '回滚是在性能下降或系统故障时恢复到先前模型版本或系统状态的过程。
+
+  '
+pronunciation: huí gǔn
+topic: aiml
+tags:
+- deployment
+- reliability
+- version control

@@ -1,0 +1,10 @@
+term: 聚类
+definition: '聚类是一种无监督学习技术，通过相似性将数据点分组为不同簇。
+
+  '
+pronunciation: jù lèi
+topic: aiml
+tags:
+- unsupervised learning
+- grouping
+- similarity

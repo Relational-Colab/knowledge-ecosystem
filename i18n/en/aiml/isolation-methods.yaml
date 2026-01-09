@@ -1,0 +1,10 @@
+term: Isolation Methods
+definition: 'Strategies that allocate separate model components or parameters for different tasks to avoid interference.
+
+  '
+pronunciation: EYE-so-LAY-shun METH-udz
+topic: aiml
+tags:
+- continual learning
+- modularity
+- task separation

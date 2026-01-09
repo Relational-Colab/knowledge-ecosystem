@@ -1,0 +1,12 @@
+term: 表达式树
+definition: '表达式树是一种用于表示数学表达式的树形数据结构，叶节点为操作数，内部节点为运算符或函数。
+
+  '
+pronunciation: biǎo dá shì shù
+topic: aiml
+tags:
+- data_structure
+- symbolic_regression
+- compilers
+- AST
+- expression_parsing

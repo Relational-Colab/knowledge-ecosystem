@@ -1,0 +1,10 @@
+term: Replay Methods
+definition: 'Techniques in continual learning that store and replay past data to mitigate forgetting and improve stability.
+
+  '
+pronunciation: REE-play METH-udz
+topic: aiml
+tags:
+- continual learning
+- memory
+- rehearsal

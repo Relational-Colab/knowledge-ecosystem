@@ -1,0 +1,10 @@
+term: Regularization Methods
+definition: 'Approaches that constrain model updates to preserve previously learned knowledge during continual learning.
+
+  '
+pronunciation: REG-yoo-ler-ih-ZAY-shun METH-udz
+topic: aiml
+tags:
+- continual learning
+- stability
+- regularization

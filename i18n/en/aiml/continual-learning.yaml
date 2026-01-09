@@ -1,0 +1,12 @@
+term: Continual Learning
+definition: 'The ability of a system to learn from a continuous stream of data while retaining previously acquired knowledge.
+
+  '
+pronunciation: kun-TIN-yoo-ul LER-ning
+topic: aiml
+tags:
+- machine_learning
+- lifelong_learning
+- online_learning
+- catastrophic_forgetting
+- adaptive_models

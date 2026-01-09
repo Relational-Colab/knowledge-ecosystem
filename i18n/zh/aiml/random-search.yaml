@@ -1,0 +1,10 @@
+term: 随机搜索
+definition: '随机搜索是一种超参数优化技术，从预定义分布中随机采样参数组合。
+
+  '
+pronunciation: suí jī sōu suǒ
+topic: aiml
+tags:
+- hyperparameter tuning
+- random sampling
+- optimization

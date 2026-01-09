@@ -1,0 +1,10 @@
+term: Unsupervised Learning
+definition: 'A machine learning approach where the model identifies patterns in data without labeled outcomes.
+
+  '
+pronunciation: un-SOO-per-vized LER-ning
+topic: aiml
+tags:
+- clustering
+- dimensionality reduction
+- pattern discovery

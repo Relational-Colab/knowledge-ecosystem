@@ -1,0 +1,10 @@
+term: Las Vegas Algorithm
+definition: 'A randomized algorithm that always returns the correct result (or failure) but whose runtime is probabilistic.
+
+  '
+pronunciation: LAS VAY-gus AL-guh-rith-um
+topic: aiml
+tags:
+- randomized_algorithm
+- probabilistic
+- algorithm_design

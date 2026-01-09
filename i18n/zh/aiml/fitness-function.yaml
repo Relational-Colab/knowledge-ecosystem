@@ -1,0 +1,12 @@
+term: 适应度函数
+definition: '适应度函数是进化算法中用于评估候选解满足优化目标程度的目标函数。
+
+  '
+pronunciation: shì yìng dù hán shù
+topic: aiml
+tags:
+- evolutionary_algorithm
+- optimization
+- objective_function
+- genetic_programming
+- genetic_algorithm

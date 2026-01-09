@@ -1,0 +1,10 @@
+term: 时间依赖性
+definition: '时间依赖性指数据点在时间上的相互关系，其中过去的数值会影响未来的结果。
+
+  '
+pronunciation: shí jiān yī lài xìng
+topic: aiml
+tags:
+- sequence modeling
+- time series
+- stream learning

@@ -1,0 +1,11 @@
+term: Word Representation
+definition: 'The way words are encoded for computational models, ranging from one-hot encoding to dense embeddings that capture semantic relations.
+
+  '
+pronunciation: wurd rep-reh-ZEN-tay-shun
+topic: aiml
+tags:
+- natural_language_processing
+- representation_learning
+- word_embedding
+- semantic_similarity

@@ -1,0 +1,10 @@
+term: 类别变量编码
+definition: '类别变量编码是将分类数据转换为数值格式的过程，以便用于机器学习模型。
+
+  '
+pronunciation: lèi bié biàn liàng biān mǎ
+topic: aiml
+tags:
+- categorical data
+- preprocessing
+- encoding

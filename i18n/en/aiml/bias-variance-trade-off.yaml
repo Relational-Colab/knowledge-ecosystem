@@ -1,0 +1,12 @@
+term: Bias-Variance Trade-off
+definition: 'The tension between bias and variance as two sources of error in predictive modeling.
+
+  '
+pronunciation: BY-us VAIR-ee-uns TRAYD-awf
+topic: aiml
+tags:
+- machine_learning
+- model_evaluation
+- generalization
+- overfitting
+- underfitting

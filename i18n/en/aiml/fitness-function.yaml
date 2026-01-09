@@ -1,0 +1,12 @@
+term: Fitness Function
+definition: 'An objective function used in evolutionary algorithms to assign a numerical score indicating how well a candidate solution meets the optimization goals.
+
+  '
+pronunciation: FIT-ness FUNK-shun
+topic: aiml
+tags:
+- evolutionary_algorithm
+- optimization
+- objective_function
+- genetic_programming
+- genetic_algorithm

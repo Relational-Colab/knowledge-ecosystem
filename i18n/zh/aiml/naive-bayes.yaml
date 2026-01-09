@@ -1,0 +1,8 @@
+term: 朴素贝叶斯
+definition: '朴素贝叶斯是一类基于贝叶斯定理的概率分类器，假设特征之间相互独立。
+
+  '
+pronunciation: pǔ sù bèi yè sī
+topic: aiml
+tags:
+- machine_learning

@@ -1,0 +1,10 @@
+term: 超参数调优
+definition: '超参数调优是优化训练过程中未学习但会影响模型性能的配置参数的过程。
+
+  '
+pronunciation: chāo cān shù tiáo yōu
+topic: aiml
+tags:
+- optimization
+- model tuning
+- hyperparameters

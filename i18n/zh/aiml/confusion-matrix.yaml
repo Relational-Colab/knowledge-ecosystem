@@ -1,0 +1,10 @@
+term: 混淆矩阵
+definition: '混淆矩阵用于描述分类模型的性能，显示真正例、假正例、真负例和假负例的数量。
+
+  '
+pronunciation: hùn xiáo jǔ zhèn
+topic: aiml
+tags:
+- classification
+- evaluation
+- metrics

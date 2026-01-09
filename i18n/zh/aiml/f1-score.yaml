@@ -1,0 +1,10 @@
+term: F1 分数
+definition: 'F1 分数是精确率和召回率的调和平均，用于平衡分类任务中的两者。
+
+  '
+pronunciation: F1 fēn shù
+topic: aiml
+tags:
+- classification
+- metrics
+- evaluation

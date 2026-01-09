@@ -1,0 +1,10 @@
+term: Monte Carlo Algorithm
+definition: 'A randomized algorithm that runs in fixed time and may yield incorrect results with some probability, reducible through repetition.
+
+  '
+pronunciation: MON-tee KAR-lo AL-guh-rith-um
+topic: aiml
+tags:
+- randomized_algorithm
+- probabilistic
+- algorithm_design

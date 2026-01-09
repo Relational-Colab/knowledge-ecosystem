@@ -1,0 +1,10 @@
+term: Encoding Categorical Variables
+definition: 'The process of converting categorical data into numerical format so that it can be used in machine learning models.
+
+  '
+pronunciation: en-KOH-ding KAT-eh-GOR-ih-kul VAY-ree-uh-buls
+topic: aiml
+tags:
+- categorical data
+- preprocessing
+- encoding

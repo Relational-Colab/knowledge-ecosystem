@@ -1,0 +1,10 @@
+term: Randomized Algorithms
+definition: 'Algorithms that use random numbers to influence their behavior, often yielding faster or simpler solutions.
+
+  '
+pronunciation: RAN-duh-mized AL-goh-rith-ums
+topic: aiml
+tags:
+- probabilistic algorithms
+- complexity
+- optimization

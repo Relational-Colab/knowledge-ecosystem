@@ -1,0 +1,10 @@
+term: 数据清洗
+definition: '数据清洗是检测并纠正或删除数据集中损坏或不准确记录的过程，以提高数据质量。
+
+  '
+pronunciation: shù jù qīng xǐ
+topic: aiml
+tags:
+- data preprocessing
+- quality assurance
+- missing values

@@ -1,0 +1,10 @@
+term: 概念漂移
+definition: '概念漂移是指目标变量的统计特性随时间变化，从而影响模型性能的现象。
+
+  '
+pronunciation: gài niàn piāo yí
+topic: aiml
+tags:
+- stream learning
+- non-stationarity
+- adaptation

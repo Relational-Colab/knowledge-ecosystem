@@ -1,0 +1,11 @@
+term: Skipgram 模型
+definition: 'Skipgram 是一种 Word2Vec 架构，通过根据目标词预测上下文词来学习词向量。
+
+  '
+pronunciation: Skipgram mó xíng
+topic: aiml
+tags:
+- natural_language_processing
+- word_embeddings
+- neural networks
+- representation_learning

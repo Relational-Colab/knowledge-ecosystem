@@ -1,0 +1,11 @@
+term: Word2Vec
+definition: 'A neural embedding model that learns vector representations of words based on their context in large corpora.
+
+  '
+pronunciation: word-too-VEK
+topic: aiml
+tags:
+- natural_language_processing
+- word embedding
+- neural_networks
+- representation_learning

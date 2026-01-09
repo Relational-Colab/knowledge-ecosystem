@@ -1,0 +1,10 @@
+term: Grid Search
+definition: 'An exhaustive search method that evaluates all combinations of hyperparameter values in a specified grid.
+
+  '
+pronunciation: grid SIRCH
+topic: aiml
+tags:
+- hyperparameter tuning
+- grid search
+- model selection

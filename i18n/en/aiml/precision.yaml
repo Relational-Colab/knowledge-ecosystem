@@ -1,0 +1,10 @@
+term: Precision
+definition: 'The ratio of true positive predictions to the total number of positive predictions made by the model.
+
+  '
+pronunciation: pre-SIH-zhun
+topic: aiml
+tags:
+- classification
+- metrics
+- evaluation

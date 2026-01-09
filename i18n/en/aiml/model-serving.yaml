@@ -1,0 +1,10 @@
+term: Model Serving
+definition: 'The infrastructure and tools used to host and deliver machine learning models for inference in production.
+
+  '
+pronunciation: MAH-dul SIRV-ing
+topic: aiml
+tags:
+- deployment
+- inference
+- scalability

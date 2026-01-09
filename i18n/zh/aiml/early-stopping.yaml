@@ -1,0 +1,10 @@
+term: 提前停止
+definition: '提前停止是一种正则化技术，当验证集性能开始下降时停止训练。
+
+  '
+pronunciation: tí qián tíng zhǐ
+topic: aiml
+tags:
+- regularization
+- model tuning
+- overfitting prevention

@@ -1,0 +1,12 @@
+term: Bootstrap Aggregating (Bagging)
+definition: 'An ensemble technique that trains multiple models on bootstrapped subsets of data and aggregates their predictions to reduce variance.
+
+  '
+pronunciation: BOOTS-trap AG-ri-gay-ting
+topic: aiml
+tags:
+- ensemble_learning
+- bagging
+- bootstrap
+- variance_reduction
+- machine_learning

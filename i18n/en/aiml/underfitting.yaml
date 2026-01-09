@@ -1,0 +1,12 @@
+term: Underfitting
+definition: 'A model is too simple to capture underlying patterns in the data, resulting in poor performance on both training and test sets.
+
+  '
+pronunciation: UN-der-fit-ing
+topic: aiml
+tags:
+- machine_learning
+- model_evaluation
+- bias
+- generalization
+- training_error

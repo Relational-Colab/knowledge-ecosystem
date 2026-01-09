@@ -1,0 +1,12 @@
+term: 交叉
+definition: '交叉是进化算法中的一种遗传操作符，通过组合两个父代的遗传信息来生成新的后代。
+
+  '
+pronunciation: jiāo chā
+topic: aiml
+tags:
+- evolutionary_algorithm
+- genetic_programming
+- genetic_algorithm
+- recombination
+- variation_operator

@@ -1,0 +1,11 @@
+term: Text Representation
+definition: 'The process of converting raw text into numerical formats suitable for machine learning, including bag-of-words, TF-IDF, and embeddings.
+
+  '
+pronunciation: tekst rep-reh-ZEN-tay-shun
+topic: aiml
+tags:
+- natural_language_processing
+- text_encoding
+- feature_extraction
+- representation_learning
