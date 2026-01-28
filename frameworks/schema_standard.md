@@ -57,7 +57,7 @@ The Sprints schema defines the timeboxes that structure the project.
   </thead>
   <tbody>
     <tr>
-      <td><code>sprint_id</code></td>
+      <td><code>id</code></td>
       <td>string</td>
       <td>WBS identifier, e.g., <code>"S03"</code></td>
     </tr>
@@ -91,7 +91,7 @@ The Sprints schema defines the timeboxes that structure the project.
 
 ### Constraints
 
-- `sprint_id` is the primary key.  
+- `id` is the primary key.  
 - `start_date` ≤ `end_date`.  
 - `status` must be one of: `planned`, `active`, `closed`.
 
@@ -113,12 +113,12 @@ Issues represent work packages within a sprint.
   </thead>
   <tbody>
     <tr>
-      <td><code>issue_id</code></td>
+      <td><code>id</code></td>
       <td>string</td>
       <td>WBS identifier, e.g., <code>"S03.I02"</code></td>
     </tr>
     <tr>
-      <td><code>sprint_id</code></td>
+      <td><code>sprint</code></td>
       <td>string</td>
       <td>Foreign key to Sprints</td>
     </tr>
@@ -128,14 +128,9 @@ Issues represent work packages within a sprint.
       <td>Issue title</td>
     </tr>
     <tr>
-      <td><code>description</code></td>
-      <td>string</td>
-      <td>Optional narrative</td>
-    </tr>
-    <tr>
       <td><code>status</code></td>
       <td>string</td>
-      <td><code>backlog</code> / <code>in_progress</code> / <code>done</code></td>
+      <td><code>todo</code> / <code>in_progress</code> / <code>review</code> / <code>done</code></td>
     </tr>
     <tr>
       <td><code>created_at</code></td>
@@ -145,21 +140,164 @@ Issues represent work packages within a sprint.
     <tr>
       <td><code>updated_at</code></td>
       <td>datetime</td>
-      <td>Last update</td>
+      <td>Last update timestamp</td>
     </tr>
     <tr>
-      <td><code>tags</code></td>
-      <td>list/string</td>
-      <td>Optional labels</td>
+      <td><code>depends_on</code></td>
+      <td>list[string]</td>
+      <td>Identifiers of issues this issue depends on</td>
+    </tr>
+    <tr>
+      <td><code>mlflow_run_id</code></td>
+      <td>string</td>
+      <td>Optional MLflow lineage reference</td>
+    </tr>
+    <tr>
+      <td><code>status_history</code></td>
+      <td>list[object]</td>
+      <td>Ordered list of workflow transitions with timestamps</td>
     </tr>
   </tbody>
 </table>
 
 ### Constraints
 
-- `issue_id` is the primary key.  
-- `sprint_id` must reference an existing Sprint.  
-- `status` must be one of: `backlog`, `in_progress`, `done`.
+- `id` is the primary key.  
+- `sprint` must reference an existing Sprint.  
+- `status` must be one of: `todo`, `in_progress`, `review`, `done`.  
+- `status_history` must follow legal transitions:  
+  - `todo → in_progress`  
+  - `in_progress → review`  
+  - `review → done`  
 
 ---
+
+## 4. Tasks Schema (`tasks.parquet`)
+
+Tasks represent the atomic units of work within an issue.
+
+### Fields
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>id</code></td>
+      <td>string</td>
+      <td>WBS identifier, e.g., <code>"S03.I02.T05"</code></td>
+    </tr>
+    <tr>
+      <td><code>issue_id</code></td>
+      <td>string</td>
+      <td>Foreign key to Issues</td>
+    </tr>
+    <tr>
+      <td><code>sprint</code></td>
+      <td>string</td>
+      <td>Foreign key to Sprints</td>
+    </tr>
+    <tr>
+      <td><code>title</code></td>
+      <td>string</td>
+      <td>Task title</td>
+    </tr>
+    <tr>
+      <td><code>status</code></td>
+      <td>string</td>
+      <td><code>todo</code> / <code>in_progress</code> / <code>review</code> / <code>done</code></td>
+    </tr>
+    <tr>
+      <td><code>created_at</code></td>
+      <td>datetime</td>
+      <td>Creation timestamp</td>
+    </tr>
+    <tr>
+      <td><code>updated_at</code></td>
+      <td>datetime</td>
+      <td>Last update timestamp</td>
+    </tr>
+    <tr>
+      <td><code>depends_on</code></td>
+      <td>list[string]</td>
+      <td>Identifiers of tasks this task depends on</td>
+    </tr>
+    <tr>
+      <td><code>mlflow_run_id</code></td>
+      <td>string</td>
+      <td>Optional MLflow lineage reference</td>
+    </tr>
+    <tr>
+      <td><code>status_history</code></td>
+      <td>list[object]</td>
+      <td>Ordered list of workflow transitions with timestamps</td>
+    </tr>
+  </tbody>
+</table>
+
+### Constraints
+
+- `id` is the primary key.  
+- `issue_id` must reference an existing Issue.  
+- `sprint` must match the sprint of the referenced Issue.  
+- `status` must be one of: `todo`, `in_progress`, `review`, `done`.  
+- `status_history` must follow legal transitions:  
+  - `todo → in_progress`  
+  - `in_progress → review`  
+  - `review → done`  
+
+---
+
+## 5. Workflow Semantics
+
+The canonical sprint workflow is:
+
+```
+todo → in_progress → review → done
+```
+
+This workflow is enforced by:
+
+- the schema registry  
+- the validator  
+- the canonical JSONL  
+- MLflow lineage logging  
+
+This ensures consistent flow‑metrics across all sprints.
+
+---
+
+## 6. Alignment With Schema Registry
+
+This document defines the **conceptual schema**.  
+The machine‑readable schema lives under:
+
+```
+frameworks/schema/
+    issues.schema.json
+    tasks.schema.json
+    workflow.schema.json
+```
+
+The registry (`schema_registry.json`) references these files and records schema evolution.
+
+---
+
+## 7. Sprint‑04 Schema Unification
+
+Sprint 04 introduced:
+
+- unified field names (`id`, `sprint`, `status`, `depends_on`, `mlflow_run_id`)  
+- canonical workflow (`todo → in_progress → review → done`)  
+- standardized `status_history`  
+- removal of legacy fields (`description`, `tags`, `sprint_id`, `issue_id`, `task_id`)  
+- machine‑readable schema files  
+- validator integration  
+
+This schema now governs all future sprints.
 

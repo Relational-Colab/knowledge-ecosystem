@@ -1,0 +1,18 @@
+issue S04.I01 in_progress Ian "Work started earlier in Sprint 04"
+issue S04.I01 review Ian "Ready for review"
+issue S04.I01 done Ian "Workflow transition data corrected and validated"
+
+task S04.I01.T01 in_progress Ian "Started during Sprint 04"
+task S04.I01.T01 review Ian "Ready for review"
+task S04.I01.T01 done Ian "Illegal transitions identified using validator"
+
+task S04.I01.T02 in_progress Ian "Started during Sprint 04"
+task S04.I01.T02 review Ian "Ready for review"
+task S04.I01.T02 done Ian "Transitions corrected in issues.jsonl"
+
+task S04.I01.T04 in_progress Ian "Started during Sprint 04"
+task S04.I01.T04 review Ian "Ready for review"
+task S04.I01.T04 done Ian "Validator re-run and data confirmed clean"
+
+issue S04.I02 in_progress Ian "Beginning work on flow-metrics table"
+task S04.I02.T01 in_progress Ian "Starting implementation of metrics extraction script"

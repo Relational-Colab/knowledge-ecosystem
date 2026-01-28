@@ -1,1 +1,2 @@
-{"sprint_id":"S03","name":"Sprint 03","start_date":"2025-01-20","end_date":"2025-02-02","status":"active","notes":"Mid-sprint pivot to local-first telemetry"}
+{"id": "S04", "name": "Sprint 04", "start_date": "2026-01-26T00:00:00+13:00", "end_date": "2026-02-01T23:59:59+13:00", "status": "active", "notes": "", "status_history": [{"status": "active", "timestamp": "2026-01-26T00:00:00+13:00", "actor": "system", "reason": "Sprint opened at start date"}]}
+{"id": "S03", "name": "Sprint 03", "start_date": "2026-01-19T00:00:00+13:00", "end_date": "2026-01-25T23:59:59+13:00", "status": "closed", "notes": "", "status_history": [{"status": "closed", "timestamp": "2026-01-25T23:59:59+13:00", "actor": "system", "reason": "Sprint closed at end date"}]}

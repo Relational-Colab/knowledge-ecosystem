@@ -1,12 +1,14 @@
 {
-  "registry_version": 2,
-  "description": "Governance-grade schema registry for the Knowledge Ecosystem. Defines required fields, identifier formats, allowed values, and foreign-key relationships for all canonical datasets.",
+  "registry_version": 3,
+  "description": "Governance-grade schema registry for the Knowledge Ecosystem. Defines required fields, identifier formats, allowed values, workflow transitions, and foreign-key relationships for all canonical datasets.",
 
-  "status_transitions": {
-    "backlog": ["in_progress"],
-    "in_progress": ["review"],
-    "review": ["done"],
-    "done": []
+  "workflow": {
+    "allowed_transitions": {
+      "todo": ["in_progress"],
+      "in_progress": ["review"],
+      "review": ["done"],
+      "done": []
+    }
   },
 
   "schemas": {
@@ -14,7 +16,7 @@
       "schema_version": 1,
       "id_pattern": "^S\\d{2}$",
       "required_fields": [
-        "sprint_id",
+        "id",
         "name",
         "start_date",
         "end_date",
@@ -29,17 +31,23 @@
     },
 
     "issues": {
-      "schema_version": 1,
+      "schema_version": 2,
+      "schema_file": "frameworks/schema/issues.schema.json",
       "id_pattern": "^S\\d{2}\\.I\\d{2}$",
       "required_fields": [
-        "issue_id",
-        "sprint_id",
+        "id",
         "title",
-        "status"
+        "sprint",
+        "status",
+        "created_at",
+        "depends_on",
+        "mlflow_run_id",
+        "status_history"
       ],
       "status_values": [
-        "backlog",
+        "todo",
         "in_progress",
+        "review",
         "done"
       ],
       "status_history": {
@@ -49,31 +57,37 @@
           "type": "object",
           "required": ["from", "to", "timestamp"],
           "properties": {
-            "from": { "type": "string" },
-            "to": { "type": "string" },
+            "from": { "type": "string", "enum": ["todo", "in_progress", "review", "done"] },
+            "to": { "type": "string", "enum": ["todo", "in_progress", "review", "done"] },
             "timestamp": { "type": "string", "format": "date-time" }
           }
         }
       },
       "foreign_keys": {
-        "sprint_id": "sprints.sprint_id"
+        "sprint": "sprints.id"
       },
-      "notes": "Issues inherit sprint lineage and must reference an existing sprint."
+      "notes": "Issues inherit sprint lineage and must reference an existing sprint. Schema updated in Sprint 04 to unify field names and workflow semantics."
     },
 
     "tasks": {
-      "schema_version": 1,
+      "schema_version": 2,
+      "schema_file": "frameworks/schema/tasks.schema.json",
       "id_pattern": "^S\\d{2}\\.I\\d{2}\\.T\\d{2}$",
       "required_fields": [
-        "task_id",
+        "id",
         "issue_id",
-        "sprint_id",
         "title",
-        "status"
+        "sprint",
+        "status",
+        "created_at",
+        "depends_on",
+        "mlflow_run_id",
+        "status_history"
       ],
       "status_values": [
-        "backlog",
+        "todo",
         "in_progress",
+        "review",
         "done"
       ],
       "status_history": {
@@ -83,17 +97,17 @@
           "type": "object",
           "required": ["from", "to", "timestamp"],
           "properties": {
-            "from": { "type": "string" },
-            "to": { "type": "string" },
+            "from": { "type": "string", "enum": ["todo", "in_progress", "review", "done"] },
+            "to": { "type": "string", "enum": ["todo", "in_progress", "review", "done"] },
             "timestamp": { "type": "string", "format": "date-time" }
           }
         }
       },
       "foreign_keys": {
-        "issue_id": "issues.issue_id",
-        "sprint_id": "sprints.sprint_id"
+        "issue_id": "issues.id",
+        "sprint": "sprints.id"
       },
-      "notes": "Tasks inherit both issue and sprint lineage. sprint_id must match the sprint of the referenced issue."
+      "notes": "Tasks inherit both issue and sprint lineage. Schema updated in Sprint 04 to unify field names, add mlflow_run_id, depends_on, and enforce canonical workflow."
     }
   },
 
@@ -105,7 +119,10 @@
     {
       "version": 2,
       "changes": "Added global status_transitions and status_history field for issues and tasks to support kanban-style workflow tracking."
+    },
+    {
+      "version": 3,
+      "changes": "Sprint 04 schema unification: replaced backlog with todo, unified field names (id, sprint), added mlflow_run_id and depends_on, introduced schema_file references, and aligned status_history with canonical workflow."
     }
   ]
 }
-

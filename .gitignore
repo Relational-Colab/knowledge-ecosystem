@@ -22,3 +22,18 @@ node_modules/
 # Build artifacts (future automation)
 dist/
 build/
+
+# MLflow runtime
+mlruns/
+mlflow.db
+
+# Parquet outputs
+data/*.parquet
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+updates.txt
+scripts/snippet.txt

@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-01-27T23:50:48.635912+00:00",
+  "sprint": "sprint-04",
+  "updates": [
+    {
+      "entity": "issue",
+      "id": "S04.I01",
+      "status": "done",
+      "actor": "Ian",
+      "reason": "Workflow transition data corrected and validated"
+    }
+  ]
+}

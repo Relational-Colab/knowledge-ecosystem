@@ -1,0 +1,8 @@
+
+=== Sprint 03 ===
+commit_count: 0
+files_touched: 0
+lines_added: 0
+lines_removed: 0
+average_cadence: NaT
+flow_efficiency: None

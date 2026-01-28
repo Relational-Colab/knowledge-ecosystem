@@ -1,0 +1,104 @@
+{
+  "captured_at": "2026-01-27T23:51:06.195303+00:00",
+  "sprint": "sprint-04",
+  "updates": [
+    {
+      "entity": "issue",
+      "id": "S04.I01",
+      "status": "in_progress",
+      "actor": "Ian",
+      "reason": "Work started earlier in Sprint 04"
+    },
+    {
+      "entity": "issue",
+      "id": "S04.I01",
+      "status": "review",
+      "actor": "Ian",
+      "reason": "Ready for review"
+    },
+    {
+      "entity": "issue",
+      "id": "S04.I01",
+      "status": "done",
+      "actor": "Ian",
+      "reason": "Workflow transition data corrected and validated"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I01.T01",
+      "status": "in_progress",
+      "actor": "Ian",
+      "reason": "Started during Sprint 04"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I01.T01",
+      "status": "review",
+      "actor": "Ian",
+      "reason": "Ready for review"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I01.T01",
+      "status": "done",
+      "actor": "Ian",
+      "reason": "Illegal transitions identified using validator"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I01.T02",
+      "status": "in_progress",
+      "actor": "Ian",
+      "reason": "Started during Sprint 04"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I01.T02",
+      "status": "review",
+      "actor": "Ian",
+      "reason": "Ready for review"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I01.T02",
+      "status": "done",
+      "actor": "Ian",
+      "reason": "Transitions corrected in issues.jsonl"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I01.T04",
+      "status": "in_progress",
+      "actor": "Ian",
+      "reason": "Started during Sprint 04"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I01.T04",
+      "status": "review",
+      "actor": "Ian",
+      "reason": "Ready for review"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I01.T04",
+      "status": "done",
+      "actor": "Ian",
+      "reason": "Validator re-run and data confirmed clean"
+    },
+    {
+      "entity": "issue",
+      "id": "S04.I02",
+      "status": "in_progress",
+      "actor": "Ian",
+      "reason": "Beginning work on flow-metrics table"
+    },
+    {
+      "entity": "task",
+      "id": "S04.I02.T01",
+      "status": "in_progress",
+      "actor": "Ian",
+      "reason": "Starting implementation of metrics extraction script"
+    }
+  ]
+}
