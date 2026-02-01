@@ -1,0 +1,53 @@
+{
+  "date": "2026-01-31",
+  "sprint": "S04",
+  "attendees": ["Ian"],
+  "summary": "Standup confirming stable progress on S04.I03.T01 and formalizing the Sprint 04 scope refinement to align with the upcoming substrate migration.",
+  "discussion": [
+    {
+      "topic": "Progress since last standup",
+      "details": "The Sprint 04 mid-sprint review was completed and saved. Architectural direction for Sprint 05 is now clear, including the event-sourced substrate, projections, embeddings, Graph integration, and RAG pipelines."
+    },
+    {
+      "topic": "Remaining Sprint 04 scope",
+      "details": "A governance-aligned review of remaining Sprint 04 items was conducted. Only work that reduces friction for the migration, stabilizes the system, or produces artifacts reused in Sprint 05 will remain in scope."
+    },
+    {
+      "topic": "Scope refinement decision",
+      "details": "S04.I03.T01 (integrate flow-metrics into the analytics notebook) remains in scope as it directly supports the upcoming migration. Most S04.I04 MLflow tasks are deferred, as they depend on the new substrate. S04.I05 documentation and refactoring tasks are selectively retained only if they reduce friction or survive the migration. All other tasks are deferred or removed from Sprint 04."
+    },
+    {
+      "topic": "Architectural alignment",
+      "details": "The refined scope supports the transition to the events → projections → embeddings → graph → RAG → analytics architecture. This ensures Sprint 05 begins with a stable foundation and avoids wasted effort on soon-to-be-replaced workflows."
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Retain only S04.I03.T01 as essential Sprint 04 work",
+      "reason": "It directly stabilizes the analytics layer and prepares the system for the substrate migration."
+    },
+    {
+      "decision": "Defer S04.I04 MLflow integration tasks",
+      "reason": "These tasks depend on the new event-sourced substrate and would require rework if completed now."
+    },
+    {
+      "decision": "Selective retention of S04.I05 documentation and refactoring",
+      "reason": "Only artifacts that reduce migration friction or remain valid post-migration are worth completing."
+    },
+    {
+      "decision": "Adopt the minimal migration plan as the backbone of Sprint 05",
+      "reason": "This plan introduces the substrate, projections, embeddings, Graph integration, and RAG pipelines in a safe, incremental manner."
+    }
+  ],
+  "actions": [
+    {
+      "action": "Proceed with S04.I03.T01",
+      "status": "in_progress"
+    },
+    {
+      "action": "Prepare Sprint 05 planning using the migration plan",
+      "status": "pending"
+    }
+  ],
+  "status": "standup_closed"
+}

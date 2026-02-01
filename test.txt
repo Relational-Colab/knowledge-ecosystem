@@ -1,0 +1,9 @@
+# === Sprint review ritual (T04) ===
+review:
+    @echo "=== Sprint Review Ceremony Starting ==="
+    $(MAKE) metrics sprint=$(sprint)
+    $(MAKE) timeseries sprint=$(sprint)
+    @echo "Generating sprint review artifact..."
+    $(PYTHON) scripts/generate-review.py $(sprint)
+    @echo "=== Sprint Review Ceremony Complete ==="
+

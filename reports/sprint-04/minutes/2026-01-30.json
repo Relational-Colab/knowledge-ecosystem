@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-30",
+  "sprint": "S04",
+  "attendees": ["Ian"],
+  "summary": "Brief standup confirming stable sprint status and ongoing work on S04.I03.T01.",
+  "discussion": [
+    {
+      "topic": "Sprint status",
+      "details": "All data from yesterday’s long standup remains clean and consistent. No new issues or blockers identified."
+    },
+    {
+      "topic": "Work in progress",
+      "details": "S04.I03.T01 continues as the active task. No ceremony friction or structural concerns today."
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Maintain current focus on S04.I03.T01",
+      "reason": "Work is progressing normally and no reprioritization is required."
+    }
+  ],
+  "actions": [],
+  "status": "standup_closed"
+}

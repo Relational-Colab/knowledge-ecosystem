@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-01-28T16:03:25.629221",
+  "num_sprints": 2,
+  "num_issues": 9,
+  "num_tasks": 26,
+  "tasks_per_issue": {
+    "S03.I01": 2,
+    "S03.I02": 2,
+    "S03.I03": 1,
+    "S03.I04": 1,
+    "S04.I01": 4,
+    "S04.I02": 4,
+    "S04.I03": 4,
+    "S04.I04": 4,
+    "S04.I05": 4
+  },
+  "issues_per_sprint": {},
+  "issue_status_distribution": {
+    "done": 5,
+    "todo": 4
+  },
+  "task_status_distribution": {
+    "todo": 18,
+    "done": 8
+  },
+  "dependency_edges": 5,
+  "issues_with_dependencies": 3,
+  "avg_dependencies_per_issue": 0.5555555555555556,
+  "sprint_completion_ratio": 0.5555555555555556
+}
