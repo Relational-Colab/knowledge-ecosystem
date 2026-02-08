@@ -1,7 +1,7 @@
 # Sprint Kanban
 
 Sprint: sprint-04
-Generated: 2026-01-28T14:32:22.995415
+Generated: 2026-01-29T12:07:14.975757
 
 ## Issues — todo
 
@@ -96,9 +96,3 @@ Generated: 2026-01-28T14:32:22.995415
 - **S04.I05.T02** — 
 - **S04.I05.T03** — 
 - **S04.I05.T04** — 
-
----
-
-## Standup Minutes (2026-01-28)
-
-- issue S04.I01 → done — Workflow transition data corrected and validated (by Ian)

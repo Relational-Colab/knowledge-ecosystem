@@ -85,7 +85,7 @@ You may cite this document as:
 
 Calder,I. (2026, January 18). AI-assisted academic work and academic integrity [Working paper]. 
 Drafted with assistance from Microsoft Copilot (Microsoft, 2026).
-https://github.com/<your-repo-path>/domains/digital-ethics/notes/ai-assisted-academic-integrity.md
+https://github.com/<your-repo-path>/domains/notes/ai-assisted-academic-integrity.md
 
 ## References
 APA Style Blog  
